@@ -1,0 +1,8 @@
+.env/
+.venv/
+unsloth_compiled_cache/
+*.log
+*.tmp
+*.secrets
+secrets.env
+
