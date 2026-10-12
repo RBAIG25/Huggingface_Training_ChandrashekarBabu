@@ -1,7 +1,13 @@
 import numpy as np
 import evaluate
 from datasets import load_dataset, DatasetDict
-from torchvision.transforms import RandomHorizontalFlip, RandomRotation, RandomVerticalFlip, ColorJitter, Compose
+from torchvision.transforms import (
+    RandomHorizontalFlip, 
+    RandomRotation, 
+    RandomVerticalFlip, 
+    ColorJitter, 
+    Compose
+)
 from transformers import (
     AutoModelForImageClassification,
     AutoImageProcessor,
